@@ -45,15 +45,23 @@ This pipeline structure allows the system to automatically perform research task
 ai-research-assistant/
 
 app/
+  
   search.py
+  
   extractor.py
+  
   summarizer.py
+  
   insights.py
 
 main.py
+
 requirements.txt
+
 README.md
+
 .env.example
+
 .gitignore
 
 ## Module Description
