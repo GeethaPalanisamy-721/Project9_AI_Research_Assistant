@@ -30,37 +30,38 @@ The application is implemented in Python and delivered through an interactive we
 The system follows an automated research workflow:
 
 User Query
-↓
+   ↓
 Web Search
-↓
-Top Relevant URLs Retrieved
-↓
-Webpage Content Extraction
-↓
+   ↓
+Relevant URLs Retrieved
+   ↓
+Content Extraction
+   ↓
 Multi-Article Aggregation
-↓
-Transformer-Based Summarization
-↓
+   ↓
+Transformer Summarization
+   ↓
 Insight Generation
-↓
-Results Displayed with Source Citations
+   ↓
+Results with Citations
+
 
 This pipeline structure allows the system to automatically perform research tasks that would normally require manually reading multiple articles.
 
 ## Project Structure
 
-ai-research-assistant
+ai-research-assistant/
 │
-├── app
-│   ├── search.py
-│   ├── extractor.py
-│   ├── summarizer.py
-│   └── insights.py
+├── app/
+│   ├── search.py        # Web search & URL retrieval
+│   ├── extractor.py     # Webpage content extraction
+│   ├── summarizer.py    # Transformer-based summarization
+│   └── insights.py      # Structured insights generation
 │
-├── main.py
-├── requirements.txt
-├── README.md
-├── .env.example
+├── main.py              # Orchestrates pipeline & UI
+├── requirements.txt     # Dependencies
+├── README.md            # Documentation
+├── .env.example         # Environment variable template
 └── .gitignore
 
 ## Module Description
@@ -139,13 +140,13 @@ Enter a research question and the system will generate summarized insights from 
 
 ## Example Use Cases
 
-Technology trend research
+- Technology trend research
 
-Market research and industry analysis
+- Market research and industry analysis
 
-Summarizing multiple articles quickly
+- Summarizing multiple articles quickly
 
-Extracting key insights from online information
+- Extracting key insights from online information
 
 ## Key Enhancements Implemented
 
