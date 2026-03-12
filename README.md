@@ -46,13 +46,13 @@ ai-research-assistant/
 
 app/
   
-  search.py
+  - search.py
   
-  extractor.py
+  - extractor.py
   
-  summarizer.py
+  - summarizer.py
   
-  insights.py
+  - insights.py
 
 main.py
 
