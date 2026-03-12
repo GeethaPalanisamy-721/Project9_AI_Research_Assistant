@@ -29,22 +29,14 @@ The application is implemented in Python and delivered through an interactive we
 
 The system follows an automated research workflow:
 
-User Query
-   ↓
-Web Search
-   ↓
-Relevant URLs Retrieved
-   ↓
-Content Extraction
-   ↓
-Multi-Article Aggregation
-   ↓
-Transformer Summarization
-   ↓
-Insight Generation
-   ↓
-Results with Citations
-
+1. **User Query** – User submits a research question  
+2. **Web Search** – Relevant articles retrieved from the web  
+3. **URL Selection** – Top-ranked sources selected  
+4. **Content Extraction** – Article text extracted from webpages  
+5. **Multi-Article Aggregation** – Content combined across sources  
+6. **Transformer Summarization** – Key information summarized  
+7. **Insight Generation** – Structured insights generated  
+8. **Results with Citations** – Sources displayed for transparency
 
 This pipeline structure allows the system to automatically perform research tasks that would normally require manually reading multiple articles.
 
