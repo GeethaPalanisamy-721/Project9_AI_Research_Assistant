@@ -1,5 +1,5 @@
-AI Research Assistant
-Overview
+# AI Research Assistant
+## Overview
 
 AI Research Assistant is an automated AI workflow that performs web-based research and generates structured insights from multiple online sources.
 
@@ -9,23 +9,23 @@ This project demonstrates how multiple AI and data processing components can be 
 
 The application is implemented in Python and delivered through an interactive web interface.
 
-Key Features
+## Key Features
 
-Automated web research pipeline
+* Automated web research pipeline
 
-Multi-article aggregation for balanced insights
+* Multi-article aggregation for balanced insights
 
-Source citation for transparency and verification
+* Source citation for transparency and verification
 
-Transformer-based summarization
+* Transformer-based summarization
 
-Webpage content extraction and cleaning
+* Webpage content extraction and cleaning
 
-Step-by-step pipeline visualization in the interface
+* Step-by-step pipeline visualization in the interface
 
-Interactive research queries through a web app
+* Interactive research queries through a web app
 
-System Workflow
+## System Workflow
 
 The system follows an automated research workflow:
 
@@ -47,7 +47,8 @@ Results Displayed with Source Citations
 
 This pipeline structure allows the system to automatically perform research tasks that would normally require manually reading multiple articles.
 
-Project Structure
+## Project Structure
+
 ai-research-assistant
 │
 ├── app
@@ -61,75 +62,82 @@ ai-research-assistant
 ├── README.md
 ├── .env.example
 └── .gitignore
-Module Description
 
-search.py
+## Module Description
+
+### search.py
+
 Handles web search and retrieves relevant URLs using the search API.
 
-extractor.py
+### extractor.py
+
 Downloads webpages and extracts readable article text.
 
-summarizer.py
+### summarizer.py
+
 Processes aggregated content and generates summaries using transformer models.
 
-insights.py
+### insights.py
+
 Converts summarized content into structured bullet-point insights.
 
-main.py
+### main.py
+
 Orchestrates the research pipeline and provides the user interface
 
-Technology Stack
+## Technology Stack
 
-Python
+* Python
 
-Streamlit
+* Streamlit
 
-Hugging Face Transformers
+* Hugging Face Transformers
 
-Beautiful Soup
+* Beautiful Soup
 
-Requests
+* Requests
 
-Tavily
+* Tavily
 
-Installation
+## Installation
 
-Clone the repository
+### Clone the repository
 
 git clone https://github.com/your-username/ai-research-assistant.git
 
-Navigate to the project directory
+### Navigate to the project directory
 
 cd ai-research-assistant
 
-Create a virtual environment
+### Create a virtual environment
 
 python -m venv .venv
 
-Activate the environment
+### Activate the environment
 
 .venv\Scripts\activate
 
-Install dependencies
+### Install dependencies
 
 pip install -r requirements.txt
 
-Environment Variables
+### Environment Variables
 
 Create a .env file in the project root.
 
 TAVILY_API_KEY=your_api_key_here
 
-Running the Application
+### Running the Application
 
 Start the Streamlit app
 
 streamlit run main.py
+
 The application will open in your browser.
 
 Enter a research question and the system will generate summarized insights from multiple web sources.
 
-Example Use Cases
+## Example Use Cases
 
 Technology trend research
 
@@ -139,46 +147,39 @@ Summarizing multiple articles quickly
 
 Extracting key insights from online information
 
-Key Enhancements Implemented
+## Key Enhancements Implemented
 
-This project includes several enhancements to improve research quality and usability.
+* Multi-Article Aggregation : Instead of relying on a single source, the system aggregates information from multiple webpages to produce more balanced summaries.
 
-Multi-Article Aggregation
+* Source Citation : The application displays the original article sources alongside generated insights to improve transparency and allow users to verify information.
 
-Instead of relying on a single source, the system aggregates information from multiple webpages to produce more balanced summaries.
+* Pipeline Step Visualization : The interface displays each stage of the research pipeline, helping users understand how the system processes information.
 
-Source Citation
+## Future Improvements
 
-The application displays the original article sources alongside generated insights to improve transparency and allow users to verify information.
-Pipeline Step Visualization
+- Potential enhancements include:
 
-The interface displays each stage of the research pipeline, helping users understand how the system processes information.
+- Retrieval-Augmented Generation (RAG)
 
-Future Improvements
+- Semantic similarity ranking for article selection
 
-Potential enhancements include:
+- Vector database integration
 
-Retrieval-Augmented Generation (RAG)
+- Multi-agent AI workflow orchestration
 
-Semantic similarity ranking for article selection
+- Cloud deployment for scalable usage
 
-Vector database integration
-
-Multi-agent AI workflow orchestration
-
-Cloud deployment for scalable usage
-
-Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates practical experience with:
 
-Designing automated AI pipelines
+* Designing automated AI pipelines
 
-Integrating external APIs for data retrieval
+* Integrating external APIs for data retrieval
 
-Applying transformer models to real-world problems
+* Applying transformer models to real-world problems
 
-Building interactive AI applications
+* Building interactive AI applications
 
-Structuring modular AI systems
+* Structuring modular AI systems
 
