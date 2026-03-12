@@ -45,15 +45,15 @@ This pipeline structure allows the system to automatically perform research task
 ai-research-assistant/
 │
 ├── app/
-│   ├── search.py        # Web search & URL retrieval
-│   ├── extractor.py     # Webpage content extraction
-│   ├── summarizer.py    # Transformer-based summarization
-│   └── insights.py      # Structured insights generation
+│ ├── search.py # Web search & URL retrieval
+│ ├── extractor.py # Webpage content extraction
+│ ├── summarizer.py # Transformer-based summarization
+│ └── insights.py # Structured insight generation
 │
-├── main.py              # Orchestrates pipeline & UI
-├── requirements.txt     # Dependencies
-├── README.md            # Documentation
-├── .env.example         # Environment variable template
+├── main.py # Pipeline orchestration & UI
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
+├── .env.example # Environment variable template
 └── .gitignore
 
 ## Module Description
